@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(https://happywall-img-gallery.imgix.net/30360/world_map_in_bright_colors_display.jpg?h=1220&q=70&auto=format);
+    background-size: cover;
+    background-position: center;
+    font-family: "Great Vibes", serif;
+}
+.content{
+    height: 90%;
+    width: 45%;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size:60px ;
+}
+h2{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
